@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "598044375673",
+    "firebase_url": "https://truecallerclone-4eb0a.firebaseio.com",
+    "project_id": "truecallerclone-4eb0a",
+    "storage_bucket": "truecallerclone-4eb0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598044375673:android:0c970e1bcf890c3486b2a8",
+        "android_client_info": {
+          "package_name": "com.codehustlers.truecallerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598044375673-msd7tknuj6k996bmhr9klb12ci6lslfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8w-pBvys7Il0X6d0frfsZ_61TV13txYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598044375673-msd7tknuj6k996bmhr9klb12ci6lslfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
