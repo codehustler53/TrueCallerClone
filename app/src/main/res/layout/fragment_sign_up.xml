@@ -58,7 +58,7 @@
                 android:id="@+id/tvSignIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tv_signin"
+                android:text="@string/tv_sign_up"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="@dimen/_15ssp"
                 android:textStyle="bold"
@@ -107,11 +107,63 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEnteName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:boxStrokeColor="@color/colorBg"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tilEnterMobile"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:hint="@string/hint_enter_your_name"
+                app:hintTextColor="@android:color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColorHint="@android:color/black"
+                    android:textColor="@android:color/black"
+                    android:textCursorDrawable="@null"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEnterCity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:boxStrokeColor="@color/colorBg"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tilEnteName"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:hint="@string/hint_enter_your_city"
+                app:hintTextColor="@android:color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColorHint="@android:color/black"
+                    android:textColor="@android:color/black"
+                    android:textCursorDrawable="@null"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
             <TextView
                 android:id="@+id/tvSignInBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tv_signin"
+                android:text="@string/tv_sign_up"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="@dimen/_10ssp"
                 android:background="@drawable/bg_auth_shape"
@@ -125,19 +177,18 @@
                 android:paddingTop="@dimen/_5sdp"
                 android:paddingBottom="@dimen/_5sdp"
                 android:paddingEnd="@dimen/_15sdp"
-                app:layout_constraintTop_toBottomOf="@+id/tilEnterMobile" />
+                app:layout_constraintTop_toBottomOf="@+id/tilEnterCity" />
 
             <TextView
                 android:id="@+id/tvMoveToSignUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hint_dont_t_have_an_account"
+                android:text="@string/tv_already_have_an_account"
                 android:fontFamily="@font/poppins_light"
                 android:textSize="@dimen/_10ssp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:textColor="@android:color/black"
                 android:padding="0dp"
-                android:elevation="@dimen/_10sdp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvSignInBtn" />
