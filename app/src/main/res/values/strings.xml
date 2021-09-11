@@ -2,10 +2,10 @@
     <string name="app_name">TruecallerDemo</string>
     <string name="tv_signin">SignIn</string>
     <string name="tv_91">+91</string>
-    <string name="hint_enter_your_mobile_number">Enter your Mobile Number</string>
-    <string name="hint_enter_your_name">Enter your Full Name</string>
-    <string name="hint_enter_your_city">Enter your City Name</string>
-    <string name="hint_dont_t_have_an_account">Dont’t have an account?</string>
+    <string name="hint_enter_your_mobile_number">Enter your mobile number</string>
+    <string name="hint_enter_your_name">Enter your full name</string>
+    <string name="hint_enter_your_city">Enter your city name</string>
+    <string name="hint_dont_t_have_an_account">Don’t have an account?</string>
     <string name="tv_sign_up">Sign up</string>
     <string name="tv_already_have_an_account">Already have an account?</string>
 </resources>

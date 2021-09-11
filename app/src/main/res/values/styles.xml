@@ -10,4 +10,10 @@
 
     </style>
 
+    <style name="CommonTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="hintTextColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="boxStrokeColor">@color/colorBg</item>
+    </style>
+
 </resources>
