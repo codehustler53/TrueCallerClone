@@ -8,4 +8,7 @@
     <string name="hint_dont_t_have_an_account">Don’t have an account?</string>
     <string name="tv_sign_up">Sign up</string>
     <string name="tv_already_have_an_account">Already have an account?</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="verify_otp_msg_top">Please enter the 4-digit code sent to you at %1$s</string>
+    <string name="verify_otp_msg_bottom">If you don’t receive this code in 60 seconds tap below to resend it.</string>
 </resources>

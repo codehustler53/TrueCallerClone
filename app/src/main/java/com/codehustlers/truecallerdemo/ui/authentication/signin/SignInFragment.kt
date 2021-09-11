@@ -28,6 +28,10 @@ class SignInFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.tvSignInBtn.setOnClickListener {
+            Navigation.findNavController(binding.root).navigate(R.id.action_signInFragment_to_verifyOtpFragment)
+        }
+
         binding.tvMoveToSignUp.setOnClickListener {
             Navigation.findNavController(binding.root).navigate(R.id.action_signInFragment_to_signUpFragment)
 //            findNavController().navigate(R.id.action_signInFragment_to_signUpFragment)
