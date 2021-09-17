@@ -14,6 +14,8 @@ To watch the video of Truecaller Clone <br/>
 [Youtube Part 6](https://www.youtube.com/watch?v=FQ5L6oGFNBI).<br/>
 ![Youtube Video](http://i3.ytimg.com/vi/2HwBNxyzemw/hqdefault.jpg)<br/>
 [Youtube Part 7](https://www.youtube.com/watch?v=2HwBNxyzemw).<br/>
+![Youtube Video](http://i3.ytimg.com/vi/CsueYqdM0vw/hqdefault.jpg)<br/>
+[Youtube Part 8](https://www.youtube.com/watch?v=CsueYqdM0vw).<br/>
 
 ## Follow us on 
 [Instagram](https://www.instagram.com/codehustlers/)
